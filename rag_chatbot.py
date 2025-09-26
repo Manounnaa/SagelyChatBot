@@ -2,21 +2,17 @@ import os
 import pandas as pd
 import numpy as np
 import faiss
-
+import ollama
 from dotenv import load_dotenv
 from sentence_transformers import SentenceTransformer
-import google.generativeai as genai
 
 # ---------------------------
-# 1. Load API Key from .env
+# 1. Load .env
 # ---------------------------
 load_dotenv()
-API_KEY = os.getenv("GEMINI_API_KEY")
-if not API_KEY:
-    raise RuntimeError("❌ GEMINI_API_KEY not found in .env. Add GEMINI_API_KEY=your_key")
+OLLAMA_API_KEY = os.getenv("OLLAMA_API_KEY")  # optional if your Ollama setup requires it
 
-genai.configure(api_key=API_KEY)
-print("✅ Gemini configured")
+print("✅ Ollama configured")
 
 # ---------------------------
 # 2. Load Embedding Model
@@ -30,7 +26,6 @@ def get_embedding(text: str):
 # 3. Load CSV Data
 # ---------------------------
 CSV_FILE = "university_chatbot_dataset.csv"
-
 df = pd.read_csv(CSV_FILE)
 
 if "Question" not in df.columns or "Answer" not in df.columns:
@@ -53,7 +48,7 @@ index.add(embeddings)
 print("✅ FAISS index built with", index.ntotal, "entries")
 
 # ---------------------------
-# 5. RAG Chat Function with Fallback
+# 5. RAG Chat Function with Ollama
 # ---------------------------
 def rag_chat(query: str, top_k=3):
     # Retrieve similar Q&A
@@ -63,9 +58,9 @@ def rag_chat(query: str, top_k=3):
     retrieved_context = "\n".join([f"Q: {questions[i]}\nA: {answers[i]}" for i in indices[0]])
 
     prompt = f"""
-    You are a helpful university assistant. 
-    Use the following context to answer the question accurately. 
-    If you don't know, say "I don't know, Please Contact With Technical Support Team."
+    You are a helpful university assistant.
+    Use the following context to answer the question accurately.
+    If you don't know, say "I don't know, Your Request Is Escalated To Admins ,Now! ."
 
     Context:
     {retrieved_context}
@@ -75,15 +70,14 @@ def rag_chat(query: str, top_k=3):
     """
 
     try:
-        response = genai.GenerativeModel("gemini-1.5-flash-latest").generate_content(prompt)
-        if response and response.text:
-            return response.text.strip()
-        else:
-            # Fallback if Gemini returns nothing
-            return f"(Fallback) {answers[indices[0][0]]}"
+        response = ollama.chat(
+            model='llama3.2',  # Ollama model
+            messages=[{'role': 'user', 'content': prompt}]
+        )
+        return response['message']['content'].strip()
 
     except Exception as e:
-        print("⚠️ Gemini API error:", e)
+        print("⚠️ Ollama API error:", e)
         # Fallback → return first retrieved FAISS answer
         return f"(Fallback) {answers[indices[0][0]]}"
 
