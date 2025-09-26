@@ -1,0 +1,54 @@
+﻿Question,Answer
+What is AI?,AI stands for Artificial Intelligence.
+What is Python?,Python is a programming language.
+How can I register for a new course?,Go to Dashboard > Course Registration > Select the course and click Register.
+How do I log in to enroll in a course?,Click the Login/Sign-in button in the header at the top of the page > Enter your username and password > then submit to access the Courses page for enrollment.
+What if I forgot my password and can’t log in to enroll?,On the login screen > click “Forgot Password” to reset it > Follow the instructions or contact support if needed.
+As an admin how do I log in to manage course enrollments?,Use the Login>Signin button in the header > After logging in your Dashboard or Courses page will show enrollment management options.
+What if I get an error when logging in to enroll?,Double-check your username and password > If errors persist > try another browser or contact support.
+Can I enroll in a course without logging in?,No you must log in via the header to access enrollment features.
+How do I sign up as a new student to enroll in courses?,Click Login/Sign-in in the header > If a Sign Up option is available > fill in details like email and password > Admins may need an invite.
+What if the Login button isn’t working?,Refresh the page or clear your browser cache > If it persists > try a different device or contact support.
+Can I log in on my phone to enroll in courses?,Yes the header’s Login/Sign-in button is mobile-friendly > allowing access to enrollment features.
+As an admin is there a separate login for enrollment tasks?,No all users use the same header Login/Sign-in button > Your admin role unlocks enrollment management post-login.
+What if I need to switch accounts to enroll in a course?,Log out via the sidebar Logout link > then use the header Login/Sign-in button to log in with the correct account.
+What happens if I enter wrong login details multiple times?,You may be temporarily locked out for security > Wait a few minutes or reset your password via the login screen.
+Can I stay logged in to keep enrolling in courses?,If a “Remember Me” option exists on the login screen > check it > Otherwise > log in each time for security.
+How do I know if I’m logged in to enroll?,After logging in > you’ll see the sidebar with Courses and Dashboard options > indicating access to enrollment features.
+How do I find courses to enroll in from the Dashboard?,As a student > check the Courses section on the Dashboard > Click a course to view details and find the Enroll button.
+As an admin what enrollment tasks are on the Dashboard?,Your Dashboard shows pending enrollment submissions > Click to review > approve or reject them with a reason.
+What if no courses show on my Dashboard?,Go to the Courses page via the sidebar to browse all available courses and enroll.
+How do I see enrollment status updates on the Dashboard?,Check the Notifications section for alerts about enrollment approvals or rejections.
+As an admin how do I manage new enrollment requests?,Look for pending enrollment alerts on the Dashboard > click to view submissions and approve or reject them.
+What if my enrolled courses don’t appear on the Dashboard?,Ensure your enrollment was approved > Check the Courses page or Notifications for status.
+Can I start the enrollment process from the Dashboard?,Yes click a course in the Courses section to access its details and the Enroll button.
+As an admin what if I don’t see enrollment requests?,Check the Courses page for pending submissions or ensure students are submitting forms.
+How do I know if my enrollment was successful?,Look for a confirmation in the Notifications section on the Dashboard or check the Courses page.
+What if the Dashboard is slow to load enrollment data?,Clear notifications by marking them read or refresh the page > Contact support if it persists.
+As a student can I see enrollment announcements on the Dashboard?,Yes the Announcements section may include course-specific enrollment updates so Click to view details.
+As an admin how do I post enrollment updates on the Dashboard?,Create an announcement via the Announcements page and it’ll appear on students’ Dashboards if course-specific.
+What if I don’t see my enrollment notification?,Check the Notifications page or use the Chatbot to ask about your enrollment status.
+How do I find announcements about course enrollment?,Click Announcements in the sidebar then Use the course dropdown to filter for enrollment-related updates.
+As an admin how do I post an enrollment announcement?,On the Announcements page > click “Create New” (admin-only)and Add title and description > select the course and publish.
+What if I don’t see any enrollment announcements?,Use the search bar with keywords like “enroll” or “course” or check with the admin via Chatbot.
+How do I view enrollment details in an announcement?,Click View Details on an announcement and If it’s course-specific > View Course button links to enrollment options.
+As an admin how do I announce an enrollment deadline?,Create an announcement then select the course and include the deadline in the description.
+What if the course filter doesn’t show my enrolled course?,Confirm your enrollment on the Courses page and  If not enrolled> submit an enrollment form.
+How do I know if an announcement is about enrollment?,Check View Details> it’ll show “course-specific” for enrollment-related announcements.
+As an admin can I edit an enrollment announcement?,On the announcement’s details page > click Edit (admin-only) then update then save.
+What if the View Course button is missing?,It appears only for course-specific announcements not general ones unrelated to enrollment.
+As an admin how do I delete an old enrollment announcement?,On the announcement’s details page> click Delete (admin-only) and confirm.
+Can students ask questions about enrollment announcements?,No announcements are view-only > Use the Chatbot to ask the admin.
+What if I search for enrollment announcements and find none?,Try broader keywords or check if the admin has posted any > Use Chatbot to inquire.
+As an admin how do I ensure only enrolled students see announcements?,Select the specific course when creating the announcement to limit it to enrolled students.
+What happens after I submit an enrollment form?,The admin reviews your form > You’ll get a notification (Dashboard or Notifications) if approved or rejected.
+As an admin how do I review student enrollment submissions?,On the Courses page > find pending submissions then View details then approve or reject with a reason.
+What if my enrollment is rejected?,Check Notifications for the reason > Reapply via the Courses page or ask the admin via Chatbot.
+How do I see only my enrolled courses?,On the Courses page > use the filter to show only courses you’re enrolled in.
+What if no courses are available for enrollment?,Check Announcements for new course postings or ask the admin via Chatbot.
+As an admin how do I create a new course for enrollment?,On the Courses page > click “Create Course” (admin-only)> Add title > description and save.
+Can I enroll in multiple courses?,Yes submit separate enrollment forms for each course via the Courses page.
+What if the Enroll button isn’t on the course page?,You’re likely enrolled—look for a View Files button instead.
+As an admin how do I add files for enrolled students?,On the course’s details page > click Upload to add files > accessible to enrolled students via Files.
+
+
