@@ -50,5 +50,52 @@ As an admin how do I create a new course for enrollment?,On the Courses page > c
 Can I enroll in multiple courses?,Yes submit separate enrollment forms for each course via the Courses page.
 What if the Enroll button isn’t on the course page?,You’re likely enrolled—look for a View Files button instead.
 As an admin how do I add files for enrolled students?,On the course’s details page > click Upload to add files > accessible to enrolled students via Files.
+What if my enrollment form fails to submit?,Ensure fields (name - student ID -reason) are complete so Try again or ask via Chatbot.
+Can I unenroll from a course?,Unenrollment isn’t supported directly so contact the admin via Chatbot to request it.
+As an admin how do I reject an enrollment with a reason?,On the submission > select Reject and enter a reason (e.g  “Incomplete form”) > The student is notified.
+What fields are required in the enrollment form?,Typically ( name- student ID- reason) for enrollment > Check the form for specifics.
+What if I don’t get an enrollment confirmation?,Check Notifications or ask the admin via Chatbot for your status.
+How do I access files for a course I’m enrolled in?,After enrollment approval > go to Files in the sidebar or click View Files on the course’s details page.
+Can I download enrollment-related files?,Yes  on the Files page> filter by course and click Download next to each file.
+As an admin how do I upload files for enrolled students?,On the course’s details or Files page > click Upload to add files (e.g syllabus) for enrolled students.
+What if no files show for my enrolled course?,The admin hasn’t uploaded files > Check Announcements or ask via Chatbot.
+How do I filter files for a specific enrolled course?,On the Files page and use the course dropdown to select your enrolled course.
+As an admin can I delete files for enrolled students?,Yes on the Files page and select a file and delete it > removing access for students.
+What if a file download fails after enrollment?,Check your internet or try another browser > Report via Chatbot if it persists.
+Are there files required for enrollment?,Some courses may require uploads (e.g ID proof) in the enrollment form > check course details.
+How do I know if new files are added post-enrollment?,Check Notifications or the Files page for updates from your course.
+As an admin how do I restrict files to enrolled students?,Upload files to a specific course on the Files or course details page to limit access.
+What types of files can I download?,Likely (PDFs –  docs  - slides) download to view > Check course details for specifics.
+What if I can’t find files for my enrolled course?,Ensure you’re filtering by the correct course > If none exist so  ask the admin via Chatbot.
+How do I check my enrollment status?,Click Notifications in the sidebar to see updates on approval or rejection.
+What types of enrollment notifications will I get?,Updates on form (submissions – approvals- rejections or new files) for enrolled courses.
+As an admin how do I send enrollment notifications?,Approve or reject submissions on the Courses page( notifications) are sent automatically.
+How do I mark an enrollment notification as read?,On the Notifications page > click the notification to mark it as read.
+What if I don’t see my enrollment notification?,Check the Notifications page or ask the admin via Chatbot for status.
+As an admin  what enrollment notifications do I get?,Alerts for pending submissions or enrollment issues > Check Notifications or Courses.
+Can I mark all enrollment notifications as read?,Look for a “Mark All Read” button on the Notifications page.
+What if notifications don’t load?,Refresh the page or log out/in > Use Chatbot to report issues.
+How do I know a notification is enrollment-related?,It will mention the course name or terms like “enrollment” or “approved.”
+What if I miss an enrollment rejection notice?,Check Notifications they persist until marked read >Ask via Chatbot if needed.
+How do I ask about an enrollment issue?,Click Chatbot in the sidebar and type your issue > e.g “Why was my enrollment rejected?”.
+As an admin can I use the Chatbot for enrollment tasks?,Yes ask about managing submissions >creating courses or troubleshooting enrollment.
+Can the Chatbot check my enrollment status?,Yes describe the course and it may guide you to Notifications or query the admin.
+What if the Chatbot can’t resolve my enrollment question?,It will suggest next steps like contacting an admin directly.
+Is the Chatbot available for enrollment questions 24/7?,Yes it’s AI-based and always accessible via the sidebar.
+Can I ask the Chatbot about enrollment form fields?,Yes it can clarify fields like (name - student ID -  reason )for enrollment.
+How do I access the Chatbot for enrollment help?,Click Chatbot in the sidebar for all enrollment-related queries.
+How do I update my phone number for enrollment?,Click Profile in the sidebar > click Edit next to phone number > update and Save.
+How do I change my password to secure enrollment access?,On Profile > click Change Password and  enter old and new passwords then confirm.
+How do I manage enrollment notifications?,Click Manage Notifications on Profile to toggle alerts for enrollment updates.
+As an admin are there enrollment settings in Profile?,Yes  you may see options for managing course permissions or notifications.
+What if my profile changes don’t save for enrollment?,Ensure fields are valid > Try again or ask via Chatbot.
+Can I update my student ID for enrollment forms?,Not mentioned phone and password are editable > Ask admin via Chatbot for ID changes.
+How do enrollment notifications work with Profile settings?,Toggle settings in Manage Notifications to receive email or site alerts for enrollment.
+How do I log out after enrolling in a course?,Click Logout in the sidebar to end your session.
+Does logging out affect my enrollment status?,No your enrollment remains active > Log back in to check.
+As an admin will logout stop my enrollment reviews?,No pending reviews stay in the system > Log in to continue.
+What happens after I log out?,You’re redirected to the login page > Use the header to log in again for enrollment tasks.
+How do I enroll in a course?,Click Courses in the sidebar then select a course> click View Details and then click Enroll > Fill out the form (name -  student ID -  reason for enrollment) and submit.
+
 
 
