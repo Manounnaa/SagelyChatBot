@@ -1,5 +1,5 @@
 # 🎓 SagelyChatBot (RAG-based University Assistant)
-SagelyChatBot is an intelligent university assistant built باستخدام Retrieval-Augmented Generation (RAG).
+SagelyChatBot is an intelligent university assistant built by Retrieval-Augmented Generation (RAG).
 It retrieves relevant answers from a dataset using FAISS and generates responses using Ollama + LLM.
 
 # 🚀 Features
