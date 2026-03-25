@@ -81,6 +81,3 @@ ollama run llama3.2
 # 👩‍💻 Author
 Menna Hany
 AI Student | Data Science Enthusiast
-
-Menna Hany
-AI Student | Data Science Enthusiast
